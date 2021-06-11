@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SuperDados</string>
+    <string name="bem_vindo">bem vindo %s</string>
 </resources>

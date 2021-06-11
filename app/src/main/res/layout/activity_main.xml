@@ -44,4 +44,16 @@
         app:layout_constraintTop_toTopOf="@+id/dado1"
         app:srcCompat="@drawable/dice_2" />
 
+    <TextView
+        android:id="@+id/bemVindo"
+        android:layout_width="182dp"
+        android:layout_height="31dp"
+        android:text="Bem Vindo "
+        app:layout_constraintBottom_toTopOf="@+id/btnJogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

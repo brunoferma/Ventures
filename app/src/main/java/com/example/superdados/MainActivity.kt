@@ -2,7 +2,6 @@ package com.example.superdados
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -15,6 +14,13 @@ class MainActivity : AppCompatActivity() {
         val dados1 = findViewById(R.id.dado1) as ImageView
         val dados2 = findViewById(R.id.dado2) as ImageView
         val btn = findViewById(R.id.btnJogar) as Button
+        val text = findViewById<TextView>(R.id.bemVindo)
+
+
+        val player = intent.getStringExtra("nome")
+
+        val mensage = getString(R.string.bem_vindo, player)
+        text.text = mensage
 
 
         val imagems = listOf(
